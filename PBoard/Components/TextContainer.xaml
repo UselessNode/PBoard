@@ -1,0 +1,43 @@
+<UserControl x:Class="PBoard.Components.TextContainer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PBoard.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="200">
+    <Grid>
+        <!-- Контент текстового контейнера -->
+        <Border x:Name="ContentBorder" 
+                Background="White" 
+                BorderBrush="#CCCCCC" 
+                BorderThickness="1" 
+                ClipToBounds="True"
+                CornerRadius="2">
+            <RichTextBox x:Name="TextEditor" 
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Padding="5"
+                         VerticalAlignment="Stretch" 
+                         HorizontalAlignment="Stretch"
+                         AcceptsReturn="True"
+                         AcceptsTab="True"
+                         VerticalScrollBarVisibility="Auto"
+                         HorizontalScrollBarVisibility="Auto"
+                         TextChanged="TextEditor_TextChanged"
+                         GotFocus="TextEditor_GotFocus"
+                         LostFocus="TextEditor_LostFocus">
+                <RichTextBox.Resources>
+                    <Style TargetType="{x:Type Paragraph}">
+                        <Setter Property="Margin" Value="0" />
+                    </Style>
+                </RichTextBox.Resources>
+                <FlowDocument>
+                    <Paragraph FontSize="14" FontStyle="Italic" Foreground="Gray">
+                        <Run>Введите текст здесь...</Run>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+        </Border>
+    </Grid>
+</UserControl> 

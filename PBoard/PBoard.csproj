@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>PBoard</RootNamespace>
+    <ApplicationIcon>Resources\App.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\TextItem.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="App.png" />
+    <None Remove="Методичка курсовая версия 2025.txt" />
+    <None Remove="Отчёт.docx" />
+    <None Remove="Отчёт.md" />
+    <None Remove="Отчёт.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\App.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Services\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Tools\" />
+    <Folder Include="Components\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="App.png" />
+  </ItemGroup>
+
+</Project>

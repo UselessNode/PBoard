@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="200" fill="white"/>
+<rect x="13" y="13" width="174" height="174" rx="10" fill="#3E3046"/>
+<path d="M61 99C59.8954 99 59 98.1046 59 97V93C59 91.8954 59.8954 91 61 91H63H71H73C74.1046 91 75 91.8954 75 93V97C75 98.1046 74.1046 99 73 99H61Z" fill="#EACEFF"/>
+<path d="M91 37C91 35.8954 91.8954 35 93 35H99V49C99 50.1046 98.1046 51 97 51H93C91.8954 51 91 50.1046 91 49V37Z" fill="#EACEFF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M71 35H99V41C99 42.1046 98.1046 43 97 43H71V35ZM71 91H63V97C63 98.1046 63.8954 99 65 99H69C70.1046 99 71 98.1046 71 97V91Z" fill="#EACEFF"/>
+<path d="M71 43H63V91H71V43Z" fill="#EACEFF"/>
+<path d="M71 35H63V43H71V35Z" fill="#EACEFF"/>
+<path d="M63 35H43V43H63V35Z" fill="#EACEFF"/>
+<path d="M43 35H35V43H43V35Z" fill="#EACEFF"/>
+<path d="M35 51H41C42.1046 51 43 50.1046 43 49V43H35V51Z" fill="#EACEFF"/>
+<rect x="110" y="65" width="55" height="10" rx="2" fill="#EACEFF"/>
+<rect x="110" y="35" width="55" height="10" rx="2" fill="#EACEFF"/>
+<rect x="110" y="95" width="55" height="10" rx="2" fill="#EACEFF"/>
+<rect x="35" y="125" width="130" height="10" rx="2" fill="#EACEFF"/>
+<rect x="35" y="155" width="130" height="10" rx="2" fill="#EACEFF"/>
+</svg>
